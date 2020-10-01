@@ -10,6 +10,10 @@ body {
 }
 
 /* UTILITIES */
+/* positions */
+.p-relative {
+  position: relative;
+}
 /* background */
 .jumbo {
   background-image: url(../img/bg-banner-home.jpg);
@@ -76,6 +80,15 @@ header .jumbo .jumbo-box-dx {
   border-radius: 10px;
 }
 
+header .jumbo .jumbo-box-dx .form-group {
+  margin: 10px 0;
+}
+
+/* bottoni jumbotron form */
+header .jumbo .jumbo-box-dx .form-group .btn {
+  margin: 5px 0;
+}
+
 header .jumbo .jumbo-box-dx a:hover {
   text-decoration: none;
 }
@@ -84,6 +97,7 @@ header .jumbo .jumbo-box-dx .btn {
   width: 100%;
 }
 
+/* bottone create account */
 header .jumbo .jumbo-box-dx .btn-create {
   background-color: rgba(0, 137, 255, 0.8);
   border-color: rgba(51, 122, 183, .5);
@@ -96,19 +110,35 @@ header .jumbo .jumbo-box-dx .btn-create:hover {
   background-color: rgba(0, 137, 255, 1);
 }
 
-header .jumbo .jumbo-box-dx .form-group {
-  margin: 10px 0;
+/* bottone sign up google */
+header .jumbo .jumbo-box-dx .form-group .google-icon-form {
+  padding: 0px;
 }
 
-header .jumbo .jumbo-box-dx .form-group .btn {
-  margin: 5px 0;
+header .jumbo .jumbo-box-dx .form-group .google-icon-form img {
+  width: 20px;
+}
+
+header .jumbo .jumbo-box-dx .form-group .btn-sign-google {
+  transition: background-color .3s, border-color .3s;
+}
+
+header .jumbo .jumbo-box-dx .form-group .btn-sign-google:hover {
+  background-color: #f3f5f9;
+  border-color: #f3f5f9;
 }
 
 
+/* box text termini di servizio */
 header .jumbo .jumbo-box-dx .form-group p {
   font-size: 12px;
   padding-top: 10px;
 }
+
+header .jumbo .jumbo-box-dx .form-group p a:hover{
+  text-decoration: underline;
+}
+
 /* MEDIA QUERY */
 
 /* navbar fix <1000px */
