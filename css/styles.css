@@ -253,9 +253,19 @@ main .businesses .businesses-img-list img {
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 630px) {
+@media screen and (max-width: 630px) {
   main .businesses .businesses-img-list img {
     width: calc((100% / 2) - 100px);
+    margin-left: 10px;
+  }
+  main .businesses .businesses-img-list img:nth(odd) {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  main .businesses .businesses-img-list img {
+    width: calc((100% / 2) - 60px);
     margin-left: 10px;
   }
   main .businesses .businesses-img-list img:nth(odd) {
