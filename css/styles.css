@@ -10,19 +10,30 @@ body {
 }
 
 /* UTILITIES */
+/* display */
+.d-inline {
+  display: inline;
+}
 /* positions */
 .p-relative {
   position: relative;
 }
+.mg-0 {
+  margin: 0;
+}
+
+.mg-left-10 {
+  margin-left: 10px;
+}
+
 /* background */
 .jumbo {
   background-image: url(../img/bg-banner-home.jpg);
-  height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .bg-gray {
-  color: #f3f5f9;
+  background-color: #f3f5f9;
 }
 
 /* typo */
@@ -85,20 +96,17 @@ header .jumbo .jumbo-box-sx h1 {
   font-weight: 700;
 }
 
-
 header .jumbo .jumbo-box-sx h3 {
   font-size: 20px;
   opacity: 0.6;
 }
-
-
-
 
 /* form box jumbotron dx*/
 header .jumbo .jumbo-box-dx {
   background-color: white;
   padding: 15px 20px;
   margin-top: 60px;
+  margin-bottom: 60px;
   border-radius: 10px;
 }
 
@@ -142,6 +150,7 @@ header .jumbo .jumbo-box-dx .form-group .google-icon-form img {
 }
 
 header .jumbo .jumbo-box-dx .form-group .btn-sign-google {
+  font-weight: 600;
   transition: background-color .3s, border-color .3s;
 }
 
@@ -160,6 +169,34 @@ header .jumbo .jumbo-box-dx .form-group p {
 header .jumbo .jumbo-box-dx .form-group p a:hover{
   text-decoration: underline;
 }
+
+
+/* MAIN */
+/* sezione immagini */
+/* text businesses */
+main .businesses h5 {
+  padding-top: 30px;
+  color: #7f8fb7;
+  text-transform: uppercase;
+}
+
+/* immagini ul businesses */
+main .businesses .businesses-img-list li a{
+  text-decoration: none;
+}
+
+main .businesses .businesses-img-list img {
+  width: calc((100% / 7));
+}
+
+
+/* text bot */
+
+
+
+
+
+
 
 /* MEDIA QUERY */
 
@@ -198,5 +235,30 @@ header .jumbo .jumbo-box-dx .form-group p a:hover{
   }
   .collapse.in{
       display:block !important;
+  }
+}
+
+/* QUERY <992px */
+@media screen and (min-width: 992px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+  main .businesses .businesses-img-list img {
+    width: calc((100% / 3) - 60px);
+  }
+  main .businesses .businesses-img-list img:nth(odd) {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 630px) {
+  main .businesses .businesses-img-list img {
+    width: calc((100% / 2) - 100px);
+    margin-left: 10px;
+  }
+  main .businesses .businesses-img-list img:nth(odd) {
+    margin-left: 10px;
   }
 }
