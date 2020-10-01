@@ -12,7 +12,7 @@ body {
 /* UTILITIES */
 /* display */
 .d-inline {
-  display: inline;
+  display: inline-block;
 }
 /* positions */
 .p-relative {
@@ -188,10 +188,14 @@ main .businesses .businesses-img-list li a{
   text-decoration: none;
 }
 
-main .businesses .businesses-img-list img {
+main .businesses .businesses-img-list li {
   width: calc((100% / 7));
 }
 
+main .businesses .businesses-img-list li img {
+  max-width: 100%;
+  vertical-align: middle;
+}
 
 /* text bot */
 main .businesses a {
@@ -202,7 +206,7 @@ main .businesses a {
 /* section deploy&scale text */
 main .text-deploy {
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 main .text-deploy  h2 {
@@ -217,7 +221,13 @@ main .text-deploy  h3 {
 }
 
 /* deploy section UL */
-
+main .deploy-list {
+  border-left: 1px solid gray;
+}
+main .deploy-list ul {
+  vertical-align: bottom;
+  list-style: none;
+}
 
 
 
@@ -268,32 +278,32 @@ main .text-deploy  h3 {
 
 /* QUERY <767px */
 @media screen and (max-width: 767px) {
-  main .businesses .businesses-img-list img {
+  main .businesses .businesses-img-list li {
     width: calc((100% / 3) - 60px);
   }
-  main .businesses .businesses-img-list img:nth(odd) {
+  main .businesses .businesses-img-list li:nth(odd) {
     margin-left: 10px;
   }
 }
 
 /* QUERY <630px */
 @media screen and (max-width: 630px) {
-  main .businesses .businesses-img-list img {
+  main .businesses .businesses-img-list li {
     width: calc((100% / 2) - 100px);
     margin-left: 10px;
   }
-  main .businesses .businesses-img-list img:nth(odd) {
+  main .businesses .businesses-img-list li:nth(odd) {
     margin-left: 10px;
   }
 }
 
 /* QUERY <530px */
 @media screen and (max-width: 530px) {
-  main .businesses .businesses-img-list img {
+  main .businesses .businesses-img-list li {
     width: calc((100% / 2) - 0px);
     margin-left: 10px;
   }
-  main .businesses .businesses-img-list img:nth(odd) {
+  main .businesses .businesses-img-list li:nth(odd) {
     margin-left: 10px;
   }
 }
