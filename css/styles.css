@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #010e28;
+  color: #031b4e;
 }
 
 /* UTILITIES */
@@ -37,7 +37,9 @@ body {
 }
 
 /* typo */
-
+.opacity-07 {
+  opacity: .7;
+}
 
 
 /* navbar general */
@@ -222,13 +224,21 @@ main .text-deploy  h3 {
 
 /* deploy section UL */
 main .deploy-list {
-  border-left: 1px solid gray;
+  border-left: 2px solid lightgray;
 }
+
 main .deploy-list ul {
   vertical-align: bottom;
   list-style: none;
+  margin:0;
 }
 
+main .deploy-list ul li {
+  padding: 8px 0px;
+  color:#4e5f83;
+  font-weight: 600;
+  font-size: 16px;
+}
 
 
 /* MEDIA QUERY */
@@ -298,7 +308,7 @@ main .deploy-list ul {
 }
 
 /* QUERY <530px */
-@media screen and (max-width: 530px) {
+/* @media screen and (max-width: 530px) {
   main .businesses .businesses-img-list li {
     width: calc((100% / 2) - 0px);
     margin-left: 10px;
@@ -306,4 +316,4 @@ main .deploy-list ul {
   main .businesses .businesses-img-list li:nth(odd) {
     margin-left: 10px;
   }
-}
+} */
