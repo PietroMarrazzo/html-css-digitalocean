@@ -6,17 +6,30 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
   color: #010e28;
 }
 
+/* UTILITIES */
+/* background */
+.jumbo {
+  background-image: url(../img/bg-banner-home.jpg);
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-gray {
+  color: #f3f5f9;
+}
+
 /* typo */
+
 
 
 /* navbar general */
 header .navbar {
   background-color: white;
   border: none;
+  margin-bottom: 0px;
 }
 
 header .navbar ul li a {
@@ -39,6 +52,17 @@ header .navbar ul {
 header .navbar-default .navbar-nav li a {
   line-height: 30px;
   color: #010e28;
+}
+
+header .navbar-default .navbar-nav .btn {
+  color: #0068ff;
+  border-color: #0068ff;
+  transition: color .3s, background-color .3s;
+}
+
+header .navbar-default .navbar-nav .btn:hover {
+  color: #fff;
+  background-color: #0068ff;
 }
 
 
