@@ -173,9 +173,12 @@ header .jumbo .jumbo-box-dx .form-group p a:hover{
 
 /* MAIN */
 /* sezione immagini */
+main .businesses {
+  padding-bottom: 25px
+}
 /* text businesses */
 main .businesses h5 {
-  padding-top: 30px;
+  padding-top: 40px;
   color: #7f8fb7;
   text-transform: uppercase;
 }
@@ -191,7 +194,10 @@ main .businesses .businesses-img-list img {
 
 
 /* text bot */
-
+main .businesses a {
+  text-decoration: none;
+  font-weight: 600;
+}
 
 
 
@@ -243,7 +249,7 @@ main .businesses .businesses-img-list img {
 
 }
 
-
+/* QUERY <767px */
 @media screen and (max-width: 767px) {
   main .businesses .businesses-img-list img {
     width: calc((100% / 3) - 60px);
@@ -253,6 +259,7 @@ main .businesses .businesses-img-list img {
   }
 }
 
+/* QUERY <630px */
 @media screen and (max-width: 630px) {
   main .businesses .businesses-img-list img {
     width: calc((100% / 2) - 100px);
@@ -263,9 +270,10 @@ main .businesses .businesses-img-list img {
   }
 }
 
+/* QUERY <530px */
 @media screen and (max-width: 530px) {
   main .businesses .businesses-img-list img {
-    width: calc((100% / 2) - 60px);
+    width: calc((100% / 2) - 30px);
     margin-left: 10px;
   }
   main .businesses .businesses-img-list img:nth(odd) {
