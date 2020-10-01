@@ -13,7 +13,7 @@ body {
 /* background */
 .jumbo {
   background-image: url(../img/bg-banner-home.jpg);
-  height: 400px;
+  height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -69,11 +69,46 @@ header .navbar-default .navbar-nav .btn:hover {
 /* text box jumbotron sx */
 
 /* form box jumbotron dx*/
+header .jumbo .jumbo-box-dx {
+  background-color: white;
+  padding: 15px 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+header .jumbo .jumbo-box-dx a:hover {
+  text-decoration: none;
+}
+
 header .jumbo .jumbo-box-dx .btn {
   width: 100%;
 }
 
+header .jumbo .jumbo-box-dx .btn-create {
+  background-color: rgba(0, 137, 255, 0.8);
+  border-color: rgba(51, 122, 183, .5);
+  color: white;
+  font-weight: 600;
+  transition: background-color .4s;
+}
 
+header .jumbo .jumbo-box-dx .btn-create:hover {
+  background-color: rgba(0, 137, 255, 1);
+}
+
+header .jumbo .jumbo-box-dx .form-group {
+  margin: 10px 0;
+}
+
+header .jumbo .jumbo-box-dx .form-group .btn {
+  margin: 5px 0;
+}
+
+
+header .jumbo .jumbo-box-dx .form-group p {
+  font-size: 12px;
+  padding-top: 10px;
+}
 /* MEDIA QUERY */
 
 /* navbar fix <1000px */
