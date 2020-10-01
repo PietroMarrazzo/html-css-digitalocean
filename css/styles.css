@@ -71,6 +71,28 @@ header .navbar-default .navbar-nav .btn:hover {
 
 /* jumbotron */
 /* text box jumbotron sx */
+header .jumbo .jumbo-box-sx {
+  margin-top: 85px;
+}
+
+header .jumbo .jumbo-box-sx h1,
+header .jumbo .jumbo-box-sx h3 {
+  color: white;
+}
+
+header .jumbo .jumbo-box-sx h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+
+header .jumbo .jumbo-box-sx h3 {
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+
+
 
 /* form box jumbotron dx*/
 header .jumbo .jumbo-box-dx {
