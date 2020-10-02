@@ -243,6 +243,7 @@ main .deploy-list ul li {
 /* deploy boxes */
 main .deploy-boxes {
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 main .deploy-boxes [class^="box-"] {
@@ -271,8 +272,9 @@ main .deploy-boxes .box-bot img {
 
 /* MEDIA QUERY */
 
-/* navbar fix <1000px */
+/*  <1000px */
 @media (max-width: 1000px) {
+  /* navbarfix */
   .navbar-header {
       float: none;
   }
@@ -310,9 +312,19 @@ main .deploy-boxes .box-bot img {
 }
 
 /* QUERY <992px */
-/* @media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
+  main .text-deploy {
+    padding: 0px 15px;
+  }
+  main .deploy-list {
+    margin-left: 15px;
+  }
 
-} */
+  main .deploy-boxes .deploy-box-sx,
+  main .deploy-boxes .deploy-box-dx {
+    margin: 15px 0px;
+  }
+}
 
 /* QUERY <767px */
 @media screen and (max-width: 767px) {
