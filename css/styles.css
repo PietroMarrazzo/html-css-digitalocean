@@ -41,6 +41,19 @@ body {
   opacity: .7;
 }
 
+* h2 {
+  font-size: 35px;
+  font-weight: 500;
+  color: #031b4e;
+  padding-top: 50px;
+}
+
+* h3 {
+  font-size: 20px;
+  color:#4e5f83;
+  opacity: 0.7;
+}
+
 /* navbar general */
 header .navbar {
   background-color: white;
@@ -206,19 +219,7 @@ main .businesses a {
 
 /* section deploy&scale text */
 main .text-deploy {
-  padding-top: 50px;
   padding-bottom: 20px;
-}
-
-main .text-deploy  h2 {
-  font-size: 35px;
-  font-weight: 500;
-  color: #031b4e;
-}
-
-main .text-deploy  h3 {
-  font-size: 20px;
-  color:#4e5f83;
 }
 
 /* deploy section UL */
@@ -243,7 +244,7 @@ main .deploy-list ul li {
 /* deploy boxes */
 main .deploy-boxes {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 main .deploy-boxes [class^="box-"] {
@@ -268,6 +269,41 @@ main .deploy-boxes h6 {
 
 main .deploy-boxes .box-bot img {
   margin-top: 20px;
+}
+
+/* sezione slide img droplet */
+/* text row */
+main .droplet-text h3 {
+  line-height: 30px;
+}
+/* img row */
+main .droplet-img img {
+  width: 50%;
+  margin: 20px 40px;
+}
+
+main .droplet-img a {
+  text-decoration: none;
+}
+
+main .droplet-img .fa-chevron-left,
+main .droplet-img .fa-chevron-right {
+  font-size: 30px;
+  color: #031b4e;
+  transition: color .3s;
+}
+
+main .droplet-img .fa-chevron-left:hover,
+main .droplet-img .fa-chevron-right:hover {
+  color:#7c8db0;
+}
+
+main .droplet-img .fa-chevron-left{
+  left: 30px;
+}
+
+main .droplet-img .fa-chevron-right{
+  right: 30px;
 }
 
 /* MEDIA QUERY */
