@@ -35,23 +35,29 @@ body {
 .bg-gray {
   background-color: #f3f5f9;
 }
-
+ .bg-blue {
+   background-color: #1525d1;
+ }
 /* typo */
 .opacity-07 {
   opacity: .7;
 }
 
-* h2 {
+h2 {
   font-size: 35px;
   font-weight: 500;
   color: #031b4e;
   padding-top: 50px;
 }
 
-* h3 {
+h3 {
   font-size: 20px;
   color:#4e5f83;
   opacity: 0.7;
+}
+
+.text-white {
+  color: white;
 }
 
 /* navbar general */
@@ -272,7 +278,10 @@ main .deploy-boxes .box-bot img {
 }
 
 /* sezione slide img droplet */
-/* text row */
+main .droplet-section {
+  padding-bottom: 50px;
+}
+/* text row top*/
 main .droplet-text h3 {
   line-height: 30px;
 }
@@ -286,25 +295,55 @@ main .droplet-img a {
   text-decoration: none;
 }
 
-main .droplet-img .fa-chevron-left,
-main .droplet-img .fa-chevron-right {
+/* valido per droplet-img e love-oceans*/
+main .fa-chevron-left,
+main .fa-chevron-right {
   font-size: 30px;
   color: #031b4e;
   transition: color .3s;
 }
 
-main .droplet-img .fa-chevron-left:hover,
-main .droplet-img .fa-chevron-right:hover {
+main .fa-chevron-left:hover,
+main .fa-chevron-right:hover {
   color:#7c8db0;
 }
 
-main .droplet-img .fa-chevron-left{
+main .fa-chevron-left{
   left: 30px;
 }
 
-main .droplet-img .fa-chevron-right{
+main .fa-chevron-right{
   right: 30px;
 }
+
+/* droplet-text-bottom */
+main .droplet-text-bottom h6 {
+  font-size: 14px;
+}
+
+main .droplet-text-bottom a {
+  text-decoration: none;
+}
+
+main .droplet-text-bottom i {
+  font-size: 12px;
+  color: #3f81b9;
+  transition: font-size .2s;
+}
+
+main .droplet-text-bottom i:hover {
+  font-size: 16px;
+}
+
+main .droplet-text-bottom i:active {
+  font-size: 16px;
+}
+
+/* regions */
+/* regio */
+
+
+
 
 /* MEDIA QUERY */
 
