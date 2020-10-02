@@ -35,9 +35,12 @@ body {
 .bg-gray {
   background-color: #f3f5f9;
 }
- .bg-blue {
-   background-color: #1525d1;
+
+.bg-blue {
+  background: rgb(0,212,255);
+  background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(0,22,255,1) 0%, rgba(15,24,116,1) 0%, rgba(19,30,142,1) 10%, rgba(20,31,147,1) 14%, rgba(21,37,209,1) 72%, rgba(29,45,215,1) 92%, rgba(50,67,255,1) 100%);
  }
+
 /* typo */
 .opacity-07 {
   opacity: .7;
@@ -60,6 +63,13 @@ h3 {
   color: white;
 }
 
+.text-blue {
+  color: #a7bae3;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
 /* navbar general */
 header .navbar {
   background-color: white;
@@ -339,9 +349,35 @@ main .droplet-text-bottom i:active {
   font-size: 16px;
 }
 
-/* regions */
-/* regio */
+/* region */
+main .regions {
+  padding-bottom: 50px;
+}
+/* region row */
+main .regions .region-row p {
+  margin: 0px;
+}
 
+main .regions .region-row {
+  padding: 10px 0px;
+  border-bottom: 1px solid #818da7;
+}
+
+main .regions .region-row a {
+  color:#46a3f2;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+main .regions .region-row a:hover {
+  color:white;
+}
+
+
+main .regions .region-row a,
+main .regions .region-row p {
+  font-weight: 500;
+}
 
 
 
