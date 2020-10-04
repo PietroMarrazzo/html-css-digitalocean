@@ -18,6 +18,9 @@ body {
 .p-relative {
   position: relative;
 }
+.p-absolute {
+  position: absolute;
+}
 .mg-0 {
   margin: 0;
 }
@@ -379,6 +382,22 @@ main .regions .region-row p {
   font-weight: 500;
 }
 
+/* rockerbox section */
+/* rockerbox img */
+main .rockerbox-section .rockerbox-box {
+  width: 50%;
+  margin: 50px auto 20px auto;
+}
+
+main .rockerbox-section .rockerbox-box .fa-chevron-left {
+  left:-50px;
+  top: 55%;
+}
+
+main .rockerbox-section .rockerbox-box .fa-chevron-right {
+  right:-50px;
+  top: 55%;
+}
 
 
 /* MEDIA QUERY */
