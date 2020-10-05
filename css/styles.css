@@ -73,6 +73,15 @@ h3 {
 .text-uppercase {
   text-transform: uppercase;
 }
+
+/* TESTO LINK BLUE */
+* .link-blue {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #2283fd;
+}
+
 /* navbar general */
 header .navbar {
   background-color: white;
@@ -230,11 +239,6 @@ main .businesses .businesses-img-list li img {
   vertical-align: middle;
 }
 
-/* text bot */
-main .businesses a {
-  text-decoration: none;
-  font-weight: 600;
-}
 
 /* section deploy&scale text */
 main .text-deploy {
@@ -376,7 +380,6 @@ main .regions .region-row a:hover {
   color:white;
 }
 
-
 main .regions .region-row a,
 main .regions .region-row p {
   font-weight: 500;
@@ -386,7 +389,28 @@ main .regions .region-row p {
 /* rockerbox img */
 main .rockerbox-section .rockerbox-box {
   width: 50%;
-  margin: 50px auto 20px auto;
+  margin: 50px auto 40px auto;
+  background-color: white;
+  padding: 20px 5px 40px 5px;
+}
+
+main .rockerbox-section .rockerbox-box .text-rockerbox h5 {
+  font-size: 18px;
+}
+
+
+main .rockerbox-section .rockerbox-box .text-rockerbox h5:first-child {
+  font-weight: 700;
+  line-height: 8px;
+  padding-top: 10px;
+}
+
+main .rockerbox-section .rockerbox-box .text-rockerbox h5:last-child {
+  padding-bottom: 20px;
+}
+
+main .rockerbox-section .rockerbox-box .link-blue {
+  padding-bottom: 20px;
 }
 
 main .rockerbox-section .rockerbox-box .fa-chevron-left {
@@ -398,6 +422,7 @@ main .rockerbox-section .rockerbox-box .fa-chevron-right {
   right:-50px;
   top: 55%;
 }
+
 
 
 /* MEDIA QUERY */
