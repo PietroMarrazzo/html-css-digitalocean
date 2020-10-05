@@ -45,6 +45,12 @@ body {
  }
 
 /* typo */
+.opacity-05 {
+  opacity: .5;
+}
+.opacity-03 {
+  opacity: .3;
+}
 .opacity-07 {
   opacity: .7;
 }
@@ -72,6 +78,11 @@ h3 {
 
 .text-uppercase {
   text-transform: uppercase;
+}
+
+.btn-white {
+  background-color: white;
+
 }
 
 /* TESTO LINK BLUE */
@@ -356,6 +367,31 @@ main .droplet-text-bottom i:active {
   font-size: 16px;
 }
 
+/* FEATURES */
+main .features {
+  margin-bottom: 70px;
+}
+
+main .features h2 {
+  padding-bottom: 30px;
+}
+
+main .features-boxes h5,
+main .features-boxes h6 {
+  font-weight: 500;
+  margin: 15px 0px;
+}
+
+main .features-boxes h5 {
+  font-size: 20px;
+}
+
+main .features-boxes h6 {
+  font-size: 18px;
+  color: #4e5f83;
+  line-height: 25px;
+}
+
 /* region */
 main .regions {
   padding-bottom: 50px;
@@ -386,19 +422,23 @@ main .regions .region-row p {
 }
 
 /* rockerbox section */
+main .rockerbox-section {
+  margin-bottom: 45px;
+}
+
 /* rockerbox img */
 main .rockerbox-section .rockerbox-box {
   width: 50%;
   margin: 50px auto 40px auto;
   background-color: white;
-  padding: 20px 5px 40px 5px;
+  padding: 20px 5px 30px 5px;
 }
 
 main .rockerbox-section .rockerbox-box .text-rockerbox h5 {
   font-size: 18px;
 }
 
-
+/* rockerbox text */
 main .rockerbox-section .rockerbox-box .text-rockerbox h5:first-child {
   font-weight: 700;
   line-height: 8px;
@@ -408,20 +448,125 @@ main .rockerbox-section .rockerbox-box .text-rockerbox h5:first-child {
 main .rockerbox-section .rockerbox-box .text-rockerbox h5:last-child {
   padding-bottom: 20px;
 }
-
+/* rockerbox link blue */
 main .rockerbox-section .rockerbox-box .link-blue {
   padding-bottom: 20px;
 }
 
+/* rockerbox arrows */
 main .rockerbox-section .rockerbox-box .fa-chevron-left {
   left:-50px;
-  top: 55%;
+  top: 50%;
+  transform: translatey(-45%);
 }
 
 main .rockerbox-section .rockerbox-box .fa-chevron-right {
   right:-50px;
-  top: 55%;
+  top: 50%;
+  transform: translatey(-45%);
 }
+
+
+/* get started now */
+main .get-started {
+  padding-bottom: 60px;
+}
+/* start button */
+main .get-started .btn {
+  padding: 8px 20px;
+  transition: background-color .3s;
+}
+
+main .get-started .btn:hover {
+  background-color: #337ac6;
+}
+
+main .get-started .btn:hover a{
+  color: white;
+}
+
+main .get-started .btn a {
+  text-decoration: none;
+  transition: color .3s;
+}
+
+main .get-started .btn a:hover {
+  color:white;
+}
+
+
+/* FOOTER */
+.bg-footer {
+  background-color: #031b4e;
+}
+
+/* footer typo */
+footer .main-footer h5 {
+  line-height: 5px;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+footer .main-footer h6 {
+  font-size: 15px;
+}
+
+/* main footer */
+footer .main-footer {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+/* UL footer */
+footer .main-footer .social-list {
+  list-style: none;
+  padding-top: 10px;
+}
+
+footer .main-footer .social-list li {
+  display: inline;
+}
+
+footer .main-footer .social-list li:not(:first-child) {
+  padding-left: 10px;
+}
+
+footer .main-footer .social-list li a {
+  text-decoration: none;
+}
+
+footer .main-footer .social-list li i {
+  color: white;
+  opacity: .4;
+  font-size: 24px;
+  transition: opacity .4s;
+}
+
+footer .main-footer .social-list li i:hover {
+  opacity: .8;
+}
+
+/* footer box colonne dx */
+footer .main-footer .utilities {
+  margin-top: 15px;
+}
+
+/* ul utilities link */
+footer .main-footer .utilities-list {
+}
+
+footer .main-footer .utilities-list li {
+  list-style: none;
+  padding-top: 8px;
+}
+
+footer .main-footer .utilities-list li a {
+  color: white;
+  opacity: .6;
+  font-weight: 500;
+}
+
+/* chatbox */
 
 
 
