@@ -579,6 +579,12 @@ footer .chat-box {
   right: 5%;
 }
 
+footer .chat-box .img-box {
+  bottom: 0px;
+  right: 5%;
+  width: 100px;
+}
+
 footer .chat-box .img-box .shark {
   height: 60px;
   background-color: #1626d2;
@@ -597,11 +603,13 @@ footer .chat-box .counter {
 }
 
 footer .chat-box .baloon {
-  text-align: left;
+  bottom: 0px;
+  right: 100px;
   padding: 10px 30px;
   background-color: white;
   color: #031b4e;
   height: 60px;
+  width: 300px;
   border-radius: 10px;
 }
 
@@ -677,20 +685,22 @@ footer .chat-box .baloon i {
   footer .main-footer {
     padding-bottom: 200px;
   }
+
   footer .chat-box {
     bottom: 10px;
-    right: 80%;
+    left:0;
   }
 
   footer .chat-box .img-box {
-    float: left;
     padding-right: 0px;
+    right: 0px;
+    left:0px;
+    bottom: 70px;
   }
 
   footer .chat-box .baloon {
-    margin-left: 15px;
-    float:right;
-    height: 130px;
+    right: 0px;
+    left:15px;
   }
 }
 
