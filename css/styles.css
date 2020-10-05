@@ -21,6 +21,9 @@ body {
 .p-absolute {
   position: absolute;
 }
+.p-fixed {
+  position: fixed;
+}
 .mg-0 {
   margin: 0;
 }
@@ -91,6 +94,10 @@ h3 {
   font-weight: 600;
   font-size: 18px;
   color: #2283fd;
+}
+
+* .link-blue a:hover {
+  text-decoration: none;
 }
 
 /* navbar general */
@@ -502,13 +509,13 @@ main .get-started .btn a:hover {
 
 /* footer typo */
 footer .main-footer h5 {
-  line-height: 5px;
   padding-top: 5px;
   font-size: 15px;
 }
 
 footer .main-footer h6 {
   font-size: 15px;
+  line-height: 5px;
 }
 
 /* main footer */
@@ -567,8 +574,49 @@ footer .main-footer .utilities-list li a {
 }
 
 /* chatbox */
+footer .chat-box {
+  bottom: 10px;
+  right: 5%;
+}
 
+footer .chat-box .img-box .shark {
+  height: 60px;
+  background-color: #1626d2;
+  border-radius: 10px;
+}
 
+footer .chat-box .counter {
+  background-color: red;
+  color: white;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  border: 5px solid white;
+  top:-12px;
+  right:0px;
+}
+
+footer .chat-box .baloon {
+  text-align: left;
+  padding: 10px 30px;
+  background-color: white;
+  color: #031b4e;
+  height: 60px;
+  border-radius: 10px;
+}
+
+footer .chat-box .baloon p {
+  font-weight: 500;
+}
+
+footer .chat-box .baloon i {
+  position: absolute;
+  right:0;
+  bottom:5px;
+  transform: translateX(80%);
+  font-size: 35px;
+  color: white;
+}
 
 /* MEDIA QUERY */
 
