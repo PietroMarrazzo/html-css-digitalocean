@@ -593,7 +593,7 @@ footer .chat-box .counter {
   border-radius: 50%;
   border: 5px solid white;
   top:-12px;
-  right:0px;
+  right:-12px;
 }
 
 footer .chat-box .baloon {
@@ -672,7 +672,28 @@ footer .chat-box .baloon i {
   main .deploy-boxes .deploy-box-dx {
     margin: 15px 0px;
   }
+
+  /* chatbox */
+  footer .main-footer {
+    padding-bottom: 200px;
+  }
+  footer .chat-box {
+    bottom: 10px;
+    right: 80%;
+  }
+
+  footer .chat-box .img-box {
+    float: left;
+    padding-right: 0px;
+  }
+
+  footer .chat-box .baloon {
+    margin-left: 15px;
+    float:right;
+    height: 130px;
+  }
 }
+
 
 /* QUERY <767px */
 @media screen and (max-width: 767px) {
@@ -681,6 +702,11 @@ footer .chat-box .baloon i {
   }
   main .businesses .businesses-img-list li:nth(odd) {
     margin-left: 10px;
+  }
+
+  /* chatbox */
+  .chat-box {
+    display: none;
   }
 }
 
